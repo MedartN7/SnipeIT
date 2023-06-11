@@ -1,4 +1,4 @@
-SnipeIT
+# SnipeIT
 
 Script for interacting with the Allegro API. Incomplete and suspended until full access to their API is obtained or the company's policy changes.
 Read more at:
