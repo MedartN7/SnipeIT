@@ -16,9 +16,6 @@ Libraries: requests and cachetools
 Installation
 
 1. Clone the repository:
-```
-git clone https://github.com/your_username/AllegroAPI.git
-```
 
 2. Navigate to the project directory:
 ```
