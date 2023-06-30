@@ -16,9 +16,6 @@ Libraries: requests and cachetools
 Installation
 
 1. Clone the repository:
-```
-git clone https://github.com/your_username/AllegroAPI.git
-```
 
 2. Navigate to the project directory:
 ```
@@ -42,6 +39,7 @@ CLIENT_SECRET="Your_Client_Secret"
 REDIRECT_URI="Your_Redirect_URI"
 USER_TOKEN="Your_User_Token"
 ```
+
 
 Code Structure
 - `authentication.py`: Module containing a function for obtaining access token from the Allegro API.
