@@ -7,13 +7,13 @@ import requests
 import json
 from cachetools import TTLCache 
 
-CLIENT_ID = "CLIENT_ID"          # wprowadź Client_ID aplikacji
-CLIENT_SECRET = "CLIENT_SECRET"      # wprowadź Client_Secret aplikacji
-REDIRECT_URI = "REDIRECT_URI"       # wprowadź redirect_uri
+CLIENT_ID = "CLIENT_ID"          # enter the Client_ID of the application
+CLIENT_SECRET = "CLIENT_SECRET"      # enter the application's Client_Secret
+REDIRECT_URI = "REDIRECT_URI"       # enter redirect_uri
 AUTH_URL = "https://allegro.pl.allegrosandbox.pl/auth/oauth/authorize"
 TOKEN_URL = "https://allegro.pl.allegrosandbox.pl/auth/oauth/token"
 
-token_cache = TTLCache(maxsize=1, ttl=10)  # Pamięć podręczna dla tokena, ważność 10 sekund
+token_cache = TTLCache(maxsize=1, ttl=10)  # Cache for token, validity 10 seconds.
 
 
 def generate_code_verifier():
@@ -32,7 +32,7 @@ def get_authorization_code(code_verifier):
     code_challenge = generate_code_challenge(code_verifier)
     authorization_redirect_url = f"{AUTH_URL}?response_type=code&client_id={CLIENT_ID}&redirect_uri={REDIRECT_URI}" \
                                  f"&code_challenge_method=S256&code_challenge={code_challenge}"
-    print("Zaloguj do Allegro - skorzystaj z url w swojej przeglądarce oraz wprowadź authorization code ze zwróconego url: ")
+    print("Log in to Allegro - use the url in your browser and enter the authorization code from the returned url: ")
     print(f"--- {authorization_redirect_url} ---")
     authorization_code = input('code: ')
     return authorization_code

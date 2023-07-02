@@ -28,5 +28,4 @@ def get_access_token():
 
     except requests.exceptions.RequestException as e:
         print("Error while getting access token:", e)
-        # Tutaj możesz dodać logowanie błędu lub inny kod obsługujący ten wyjątek
         return None

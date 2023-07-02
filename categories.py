@@ -37,5 +37,4 @@ def get_subcategory(parent_id):
 
     except requests.exceptions.HTTPError as err:
         print("HTTP Error while getting subcategory:", err)
-        # Logowanie błędu lub inny kod obsługujący ten wyjątek
         raise MyCustomException("Error while getting subcategory: HTTP Error") from err
