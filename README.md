@@ -1,6 +1,6 @@
 # SnipeIT
 
-Script for interacting with the Allegro API. Incomplete and suspended until full access to their API is obtained or the company's policy changes.
+Script for interacting with the Allegro API. Incomplete and suspended until full access to their API is obtained or i'll try another way:).
 Read more at:
 1. [Allegro API Access Restrictions Announcement](https://allegro.pl/dla-sprzedajacych/1-czerwca-2021-w-api-allegro-ograniczymy-dostep-do-publicznych-danych-o-sprzedazy-innych-uzytkownikow-i-zmienimy-forme-ich-udostepniania-O3BlgZVdwCa)
 2. [Allegro API GitHub Issue](https://github.com/allegro/allegro-api/issues/4221)
