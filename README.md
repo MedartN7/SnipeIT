@@ -5,7 +5,8 @@ Read more at:
 1. [Allegro API Access Restrictions Announcement](https://allegro.pl/dla-sprzedajacych/1-czerwca-2021-w-api-allegro-ograniczymy-dostep-do-publicznych-danych-o-sprzedazy-innych-uzytkownikow-i-zmienimy-forme-ich-udostepniania-O3BlgZVdwCa)
 2. [Allegro API GitHub Issue](https://github.com/allegro/allegro-api/issues/4221)
 
-Description
+Description:
+
 The goal of the application was to enable the use of the Allegro API for retrieving information about product categories and searching for auctions on Allegro, bidding, etc.
 Work on the project has been suspended, but I will come back to it someday. I leave it where I left off for those interested in similar tools.
 
