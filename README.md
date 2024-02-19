@@ -11,9 +11,13 @@ Description:
 The goal of the application was to enable the use of the Allegro API for retrieving information about product categories and searching for auctions on Allegro, bidding, etc.
 Work on the project has been suspended, but I will come back to it someday. I leave it where I left off for those interested in similar tools.
 
-Requirements
-Python 3.6+
-Libraries: requests and cachetools
+Requirements:
+
+-Python 3.6+
+
+Libraries: 
+
+-requests and cachetools
 
 Installation
 
